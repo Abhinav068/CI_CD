@@ -1,1 +1,32 @@
 # Workflow 
+# YAMAL- YAML ain't a markup language
+
+# read and understand a series of steps or operations, 
+# this can be read by the machine to automate tasks
+
+# key: value
+# key- title
+# value - Website Name
+title: Website Name
+description: "A website for uploading content"
+age : 30
+# string, arrays, objects
+
+# Array 
+tag: 
+ - technology
+ - images
+ - creative 
+ 
+# Indentation matters
+# spaces 
+
+# objects
+ street : MG Road
+ city: Banglore
+ state : KA 
+
+# Github actions
+# env variables
+value: ${{env.VALUE}}
+variable: ${{github.VARIABLE_NAME}}
