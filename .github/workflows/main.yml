@@ -66,3 +66,5 @@ jobs:
     steps: 
       - run: node --version
       - run: npm --version 
+      - uses: actions/checkout@v3  #to read file- to know more read on github workflow.
+      - run: node index.js
